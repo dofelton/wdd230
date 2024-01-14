@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+
+}
+
+header {
+    background: rgb(58, 120, 58);
+    text-align: center;
+    
+}
+header img {
+    height: 80px;
+    width: 80px;
+}
+
+nav {
+    text-align: center;
+    background: rgb(5, 5, 99);
+}
+main {
+    display: grid;
+    text-align: center;
+}
+
+.card {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    background: rgb(224, 223, 223)
+}
