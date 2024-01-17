@@ -18,19 +18,38 @@ header img {
 }
 
 nav {
-    text-align: center;
     background: rgb(5, 5, 99);
+    margin: 0 auto;
+    max-width: 800px;
 }
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
 main {
     display: grid;
     text-align: center;
+    list-style-type: none;
 }
 
 .card {
-    list-style: none;
+    list-style-type: none;
+    border-style: outset;
+    padding: 1rem;
+    margin: 10px;
 }
 
 footer {
     text-align: center;
     background: rgb(224, 223, 223)
 }
+
