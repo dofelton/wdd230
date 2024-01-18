@@ -1,0 +1,19 @@
+@media (min-width: 600px) {
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    main h2 {
+        grid-column: 1/3;
+    }
+}
