@@ -1,18 +1,14 @@
 @media (min-width: 601px) {
-    nav ul {
+    nav {
         display: flex;
         flex-direction: row;
+        flex: 1 1 auto;
+        padding: 10px;
         justify-content: space-evenly;
         list-style: none;
         background: rgb(5,5, 99);
         margin: 0 auto;
         font-size: 2rem;
-    }
-
-
-    nav ul li {
-        flex: 1 1 auto;
-        padding: 10px;
     }
 
     main {
