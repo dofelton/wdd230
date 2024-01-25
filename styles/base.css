@@ -16,13 +16,17 @@ header img {
     height: 80px;
     width: 80px;
 }
-
-nav {
+@media (max-width: 600px) {
+.navigation {
     display: flex;
     flex-direction: column;
     list-style: none;
     background: rgb(5, 5, 99);
     margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
 }
 
 #menu {
@@ -45,18 +49,11 @@ menu.open::before {
 }
 
 
-
 ul {
     list-style: none;
 }
 
-nav a {
-    display: none;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    padding: 1rem;
-}
+
 
 nav a:hover {
     background-color: rgb(209, 209, 240);
@@ -69,8 +66,6 @@ nav a:hover {
 .active::before {
     content: "🔹";
 }
-
-
 
 main {
     display: grid;
@@ -90,3 +85,4 @@ footer {
     background: rgb(224, 223, 223)
 }
 
+}
