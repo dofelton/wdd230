@@ -53,3 +53,57 @@ nav a:hover {
 nav a:visited {
     color:blueviolet;
 }
+
+@media (max-width: 600px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background: rgb(5,5, 99);
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        list-style-type: none;
+    }
+    
+    #menu {
+        font-size: 1.3rem;
+        border: 1 px solid black;
+        padding: 5px;
+        background: white;
+        color: black;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        text-decoration: none;
+    }
+    
+    
+    #menu::before {
+        content: "☰";
+    }
+    
+    #menu.open::before {
+        content: "❌";
+    }
+    
+    .navigation a {
+        display: none;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .open a {
+        display: block;
+    }
+    
+    /* wayfinding */
+    .active::before {
+        content: "🔹";
+    }
+    
+    }
