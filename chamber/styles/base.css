@@ -11,24 +11,31 @@
 }  
 
 
-body {
+main {
     background: (--prim-background);
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
+section {
+    background: var(--prim-background);
+    border: 1px solid black;
+}
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--text-color);
 }
 
 header {
+    display: block;
     padding: 2rem;
     text-align: center;
     background: var(--prim-background);
-    font-size: 10rem;
-    border: 5rem solid black;
+    font-size: 60px;
+    border: 1rem solid black;
 }
 
 p {
@@ -56,10 +63,15 @@ nav a:visited {
     color:blueviolet;
 }
 
-main {
-    display: grid;
+.hero {
+    width: 100%;
+    height: auto;
 }
 
+footer {
+    background: var(--prim-background);
+    text-align: center;
+}
 @media (max-width: 600px) {
     .navigation {
         display: flex;
