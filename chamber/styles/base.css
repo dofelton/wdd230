@@ -27,6 +27,8 @@ header {
     padding: 2rem;
     text-align: center;
     background: var(--prim-background);
+    font-size: 10rem;
+    border: 5rem solid black;
 }
 
 p {
@@ -52,6 +54,10 @@ nav a:hover {
 
 nav a:visited {
     color:blueviolet;
+}
+
+main {
+    display: grid;
 }
 
 @media (max-width: 600px) {
