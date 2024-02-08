@@ -9,7 +9,9 @@
     --para-font: 'Playfair Display', sans-serif;
 
 }  
-
+* {
+    background-color: var(--accent);
+}
 
 main {
     background: (--prim-background);
@@ -23,6 +25,7 @@ main {
 section {
     background: var(--prim-background);
     border: 1px solid black;
+    margin: 2rem;
 }
 h1, h2 {
     font-family: var(--heading-font);
@@ -64,6 +67,10 @@ nav a:visited {
 }
 
 .hero {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 100%;
     height: auto;
 }
