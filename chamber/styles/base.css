@@ -1,7 +1,7 @@
 @import url('https://fonts.google.com/specimen/Playfair+Display');
 
 :root {
-    --prim-background: aquamarine;
+    --prim-background: #7fffd4;
     --accent: rgba(127, 255, 212, 0.3);
     --text-color: rgb(58, 49, 49);
 
