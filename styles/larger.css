@@ -11,6 +11,10 @@
         font-size: 2rem;
     }
 
+    nav a {
+        color: #008bee;
+    }
+    
     main {
         display: grid;
         grid-template-columns: auto auto;

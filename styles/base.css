@@ -9,7 +9,7 @@ header {
 }
 header img {
     height: 80px;
-    width: 80px;
+    width: auto;
 }
 
 main {
@@ -83,7 +83,7 @@ footer {
 
 #menu {
     font-size: 1.3rem;
-    border: 1 px solid black;
+    border: 1px solid black;
     padding: 5px;
     background: white;
     color: black;
@@ -92,7 +92,6 @@ footer {
     right: 1rem;
     text-decoration: none;
 }
-
 
 #menu::before {
     content: "☰";
