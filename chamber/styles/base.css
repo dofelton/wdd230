@@ -86,7 +86,7 @@ section {
     border: 1px solid black;
     margin: 2rem;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--text-color);
 }
@@ -96,8 +96,11 @@ header {
     padding: 2rem;
     text-align: center;
     background: var(--prim-background);
-    font-size: 60px;
+    font-size: 5em;
     border: 1rem solid black;
+}
+h1 {
+    font-size: 5rem;
 }
 
 p {
