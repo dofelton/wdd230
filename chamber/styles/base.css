@@ -21,6 +21,65 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+/* Dark mode slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 26px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--accent);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--accent);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: aquamarine;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px aquamarine;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 26px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
 
 section {
     background: var(--prim-background);
@@ -47,28 +106,9 @@ p {
     padding: 1 rem;
 }
 
-nav {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav a {
-    padding: 1rem;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color:blue;
-}
-
-nav a:visited {
-    color:blueviolet;
-}
-
 .hero {
-    margin-right: 5rem;
-    margin-left: 5rem;
+    /* margin-right: 5rem;
+    margin-left: 5rem; */
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 100%;
@@ -84,13 +124,13 @@ footer {
         display: flex;
         flex-direction: column;
         list-style: none;
-        background: rgb(5,5, 99);
+        background: var(--prim-background);
         margin: 0 auto;
         text-align: center;
         text-decoration: none;
-        color: white;
+        color: var(--text-color);
         padding: 1rem;
-        list-style-type: none;
+        border: 1px solid black;
     }
     
     #menu {
@@ -100,8 +140,8 @@ footer {
         background: white;
         color: black;
         position: fixed;
-        top: 1rem;
-        right: 1rem;
+        top: 5rem;
+        right: 5rem;
         text-decoration: none;
     }
     
@@ -122,6 +162,10 @@ footer {
         color: #fff;
     }
     
+    nav a:hover {
+        background-color: rgb(209, 209, 240);
+    }
+
     .open a {
         display: block;
     }

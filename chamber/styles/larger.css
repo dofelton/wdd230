@@ -6,11 +6,24 @@
         padding: 10px;
         justify-content: space-evenly;
         list-style: none;
-        background: rgb(5,5, 99);
+        background: var(--prim-background);
         margin: 0 auto;
+        color: var(--text-color);
         font-size: 2rem;
     }
-
+    
+    nav a {
+        padding: 1rem;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        color:rgb(171, 171, 255);
+    }
+    
+    nav a:visited {
+        color:blueviolet;
+    }
     main {
         display: grid;
         grid-template-columns: auto auto;
