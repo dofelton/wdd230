@@ -89,6 +89,10 @@ p {
     font-family: Playfair Display, serif;
 }
 
+iframe {
+    width: 450px; 
+    height: 300px;     
+}
 footer {
     background: var(--prim-background);
     text-align: center;
