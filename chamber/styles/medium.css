@@ -1,0 +1,19 @@
+@media (min-width: 601px) {
+    .herolabel {
+        visibility: hidden;
+    }
+
+    .herolabel:after {
+        visibility: visible;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: radial-gradient(#fff, #8999f6);
+        border: 1px ridge rgba(0, 0, 0, .75);
+        padding: .75rem;
+        opacity: 0.75;
+        content: "Week 6 medium";
+    }
+
+
+}

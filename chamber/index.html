@@ -8,6 +8,7 @@
     <title>Chamber of Commerce Site Assignment | WDD 230</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Playfair+Display" >
     <link rel="icon" href="images/favicon.ico">
@@ -35,16 +36,15 @@
         <a href="join.html">Join</a>
     </nav>
     <!-- <img class="hero" src=".\images\hero.jpg" alt="Image of downtown Rowlett Texas greenspace"> -->
-
     <main>
         <div class="hero">
             <picture>
-                <source media="(max-width: 400px)" srcset="chamber\images\w06-small.webp">
-                <source media="(max-width: 960px)" srcset="\images\w06-medium.webp">
-                <img src="\images\w06-large.webp" alt="Group of people working in office" width="1500" height="750"
+                <source media="(max-width: 400px)" srcset="images\w06-small.webp">
+                <source media="(max-width: 960px)" srcset="images\w06-medium.webp">
+                <img src="images\w06-large.webp" alt="Group of people working in office" width="1500" height="750"
             </picture>
             <div class="herolabel">
-                <p>Week 6 </p>
+                <p>Week 6 Large</p>
             </div>
         </div>
         <!-- Call to action link to join -->
@@ -70,7 +70,10 @@
         </section>
         <section>
             <h2>Weather</h2>
-            <p>Sunny, 80F</p>
+            <p>Sunny</p>
+            <p><span id="temp">30</span><span>℉</span></p>
+            <p><span id="wind">5</span><span> /mph</span></p>
+            <p id="windChill"> </p>
         </section>
     </main>
     <footer>
@@ -80,5 +83,6 @@
     </footer>
     <script src="scripts/responsiveMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

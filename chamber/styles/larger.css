@@ -1,4 +1,4 @@
-@media (min-width: 601px) {
+@media (min-width: 901px) {
     nav {
         display: flex;
         flex-direction: row;
@@ -37,4 +37,13 @@
         display: none;
     }
 
+    .herolabel {
+        visibility: hidden;
+    }
+
+    .herolabel:after {
+        visibility: visible;
+        position: absolute;
+        content: "Week 6 Large";
+    }
 }
