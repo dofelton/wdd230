@@ -31,12 +31,12 @@ main {
 }
 
 #info {
-    border: 1 px solid black;
+    border: 1px solid black;
     padding-left: 1rem;
     grid-column: 1/2;
     text-align: left;
 }
-li.discover, p.discover {
+ul.discover, p.discover {
     padding: 2rem;
 }
 #images {
