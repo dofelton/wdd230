@@ -1,0 +1,40 @@
+:root {
+    --back: rgba(255, 165, 0, 1);
+    --back2: rgba(255, 165, 0, .6);
+    --zebra: rgba(255, 165, 0, .3);
+}
+
+table {
+    border: 1 px solid black;
+    margin: 10px auto;
+}
+
+caption {
+    font-size: .75rem;
+    color: var(--back2);
+    padding: 5px;
+    caption-side: bottom;
+}
+
+tr:first-child th {
+    background-color: var(--back);
+    text-align: center;
+}
+
+th, td {
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: var(--back2);
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+}
