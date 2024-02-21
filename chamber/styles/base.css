@@ -22,6 +22,26 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.discover {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0;
+    padding: 0;
+}
+
+#info {
+    border: 1 px solid black;
+    padding-left: 1rem;
+    grid-column: 1/2;
+    text-align: left;
+}
+li.discover, p.discover {
+    padding: 2rem;
+}
+#images {
+    grid-column: 2/3;
+}
 section {
     background: var(--prim-background);
     border: 1px solid black;
@@ -34,11 +54,12 @@ h1, h2, h3 {
 
 header {
     display: block;
-    /* padding: 2rem; */
+    padding: 2rem;
     text-align: center;
     background: var(--prim-background);
     font-size: 5em;
     border: 1rem solid black;
+    width: auto;
 }
 h1 {
     font-size: 4rem;
@@ -93,6 +114,8 @@ iframe {
     width: 450px; 
     height: 300px;     
 }
+
+
 footer {
     background: var(--prim-background);
     text-align: center;
@@ -174,5 +197,14 @@ footer {
     font-weight: 600;
     font-size: 1.5rem;
     font-family: Playfair Display, serif;
+}
+
+main {
+    padding: 0;
+}
+.discover {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 }
