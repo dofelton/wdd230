@@ -2,9 +2,9 @@ const visitDisplay = document.querySelector(".visit");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 let lastVisit = Number(window.localStorage.getItem("lastVisit-ls")) || 0;
 const msInDay = 84600000;
-const todaysDate = new Date();
-let daysSince = Math.floor((todaysDate-lastVisit)/msInDay);
-console.log(lastVisit)
+const todaysDate = Number(new Date());
+let daysSince = ((todaysDate-lastVisit)/msInDay);
+console.log(Date(lastVisit))
 console.log(numVisits)
 console.log(todaysDate)
 console.log(daysSince)

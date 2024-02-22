@@ -6,7 +6,7 @@
         /* padding: 10px; */
         justify-content: space-evenly;
         list-style: none;
-        background: var(--prim-background);
+        background: #23fab3;
         margin: 0; /* auto */
         color: var(--text-color);
         font-size: 2rem;
