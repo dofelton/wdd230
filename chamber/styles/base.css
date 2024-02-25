@@ -120,6 +120,26 @@ footer {
     background: var(--prim-background);
     text-align: center;
 }
+.joinForm {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+.joinForm form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+}
+
+.join {
+    grid-column: 1/4;
+
+}
+
+#benefits {
+    ;
+}
 @media (max-width: 600px) {
     .navigation {
         display: flex;

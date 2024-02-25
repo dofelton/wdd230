@@ -46,4 +46,25 @@
         position: absolute;
         content: "Week 6 Large";
     }
+
+    .joinForm {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+    .joinForm form {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        /* position: relative; */
+    }
+    
+    .join {
+        grid-column: 1/4;
+    
+    }
+    
+    #benefits {
+     text-align: center;
+    }
 }
