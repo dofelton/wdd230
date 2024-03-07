@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+header {
+    position: relative;
+    margin: 1rem;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    
+    
+}
+
+section {
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: .2rem;
+    padding: .3rem;
+    min-width: 320px;
+}
+
+section image {
+    align-items: center;
+}
