@@ -1,5 +1,5 @@
 {
-    "lessons" : [
+    "lessons": [
         {
             "lesson": "01",
             "links": [
@@ -13,6 +13,114 @@
             "lesson": "02",
             "links": [
                 {
+                    "url": "lesson02/design.html",
+                    "title": "Web Design Principles"
+                },
+                {
+                    "url": "lesson02/media-query.html",
+                    "title": "Media Queries"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "images/Screenshot.png",
+                    "title": "Combinators Exercises"
+                },
+                {
+                    "url": "https://codepen.io/dofeltongmailcom/pen/OJqjNGK",
+                    "title": "Responsive Hamburger Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                },
+                {
+                    "url": "https://codepen.io/dofeltongmailcom/pen/qBvxxYB",
+                    "title": "Pseudo Class Fun"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "Book of Mormon Favorite Chapter Activity"
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "lesson06/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "LazyLoad Activity"
+                },
+                {
+                    "url": "lesson07/bom.html",
+                    "title": "Book of Mormon Favorite Chapters with local storage"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Tablebuild Activity"
+                },
+                {
+                    "url": "form-start/index.html",
+                    "title": "Form Building Activity"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Form"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "Ward member JSON file"
+                },
+                {
+                    "url": "lesson09/prophets.html",
+                    "title": "Prophets"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
                     "url": "",
                     "title": ""
                 },
@@ -21,6 +129,19 @@
                     "title": ""
                 }
             ]
-            }
-     ] }   
+        },
+        {
+            "lesson": "11",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        }
+    ]
 }

@@ -23,4 +23,5 @@ const displayLessons = (lessons) => {
     })
 }
 
-  getLinks();
+getLinks();
+
