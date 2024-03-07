@@ -61,6 +61,10 @@ ul {
     margin: 10px;
 }
 
+.links {
+    text-align: left;
+}
+
 footer {
     text-align: center;
     background: rgb(224, 223, 223)

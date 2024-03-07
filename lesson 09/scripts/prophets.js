@@ -5,7 +5,7 @@ const getProphetData = async () => {
     const response = await fetch(url);
     if (response.ok) {
         const data = await response.json();
-        // console.table(data.prophets);
+        console.log(data.prophets);
         displayProphets(data.prophets);
     }
     

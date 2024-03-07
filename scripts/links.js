@@ -8,20 +8,40 @@ async function getLinks() {
     displayLessons(data.lessons);
   }
   
-const displayLessons = (lessons) => {
+async function displayLessons(lessons){
     lessons.forEach((lesson) => {
-        links.foreach((link) => {
-            let linkurl = link.url;
-            let linktittle = link.tittle;
-        })
-        let links = document.createElement('section');
-        let week = document.createElement('p');
-        let assignment = document.createElement('a');
-        assignment.setAttribute('href', data.url);
-        assignment.textContent= data.title;
-        let weekline = `Week ${lesson}: `
+        lesson.links.forEach((url) => {
+        console.log(lesson);
+        let week = document.createElement('section');
+        let title = document.createElement('span');
+
+        let a = document.createElement('a');
+        let link = document.createTextNode(url.title);
+        a.appendChild(link);
+        a.title = url.title;
+        a.href = url.url;
+
+        title.textContent = `Week ${lesson.lesson}: `;
+        
+        week.appendChild(title);
+        week.appendChild(a);
+   
+        links.appendChild(week);
+    })
     })
 }
 
 getLinks();
 
+
+
+// links.foreach((link) => {
+//     let linkurl = link.url;
+//     let linktittle = link.tittle;
+// })
+// let links = document.createElement('section');
+// let week = document.createElement('p');
+// let assignment = document.createElement('a');
+// assignment.setAttribute('href', data.url);
+// assignment.textContent= data.title;
+// let weekline = `Week ${lesson}: `
