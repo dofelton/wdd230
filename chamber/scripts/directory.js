@@ -20,7 +20,7 @@ const displayMembers = (members) => {
         let picture = document.createElement("img");
         let membership = document.createElement('h3');
 
-        name.textContent = `${members.name}`;
+        name.textContent = `${member.name}`;
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phone}`;
         picture.setAttribute('src', member.image);
@@ -28,13 +28,13 @@ const displayMembers = (members) => {
         picture.setAttribute('loading', 'lazy');
         picture.setAttribute('width', '340');
         picture.setAttribute('height', '440');
-        membership.textContent(member.membership)
+        membership.textContent = (member.membership)
         
         let a = document.createElement('a');
-        let link = document.createTextNode(url);
+        let link = document.createTextNode(member.url);
         a.appendChild(link);
-        a.title = url;
-        a.href = url;
+        // a.title = member.url;
+        a.href = member.url;
 
         card.appendChild(name);
         card.appendChild(picture);
