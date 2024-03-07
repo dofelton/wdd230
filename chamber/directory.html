@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="WDD 230 Chamber of Commerce website assignment">
+    <meta name="author" content="Donald Felton">
+    <title>Chamber of Commerce Site Assignment | WDD 230</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Chamber of Commerce website assignment" >
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="https://images.app.goo.gl/qETTAEJQrg88iukA8" >
+    <meta property="og:url" content="https://dofelton.github.io/wdd230/chamber/index.html" >
 </head>
 <body>
-    
+    <!-- <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label> -->
+    <div id="mode">
+        🌑
+    </div>
+    <header>
+        <h1>Rowlett Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+    <main>
+        <h1>Our Network</h1>
+        <div id="cards"></div>
+    </main>
+    <footer>
+        <p>Contact Info</p>
+        <p>Donald Felton | Chamber of Commerce Project for WDD230</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/responsiveMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
