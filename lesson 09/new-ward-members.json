@@ -1,0 +1,25 @@
+{
+    "wardInformation": {
+        "familyName": "Jones",
+        "movedIn": "September 4, 2020",
+        "numberRecords": 3,
+        "visited": true,
+        "members": [
+            {
+                "name": "Bill",
+                "gender": "Male",
+                "birthdate": "January 12, 1982"
+            },
+            {
+                "name": "Mary",
+                "gender": "Female",
+                "birthdate": "March 22, 1982"
+            },
+            {
+                "name": "Sue",
+                "gender": "Female",
+                "birthdate": "October 23, 2002"
+            }
+        ]
+    }
+}
