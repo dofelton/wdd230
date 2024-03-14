@@ -10,23 +10,22 @@ async function getLinks() {
   
 async function displayLessons(lessons){
     lessons.forEach((lesson) => {
-        lesson.links.forEach((url) => {
         console.log(lesson);
         let week = document.createElement('section');
-        let title = document.createElement('span');
-
-        let a = document.createElement('a');
-        let link = document.createTextNode(url.title);
-        a.appendChild(link);
-        a.title = url.title;
-        a.href = url.url;
-
-        title.textContent = `Week ${lesson.lesson}: `;
         
-        week.appendChild(title);
-        week.appendChild(a);
-   
-        links.appendChild(week);
+
+        lesson.links.forEach((url) => {
+            let title = document.createElement('span');
+            let a = document.createElement('a');
+            let link = document.createTextNode(url.title);
+            a.appendChild(link);
+            a.title = url.title;
+            a.href = url.url;
+            title.textContent = `Week ${lesson.lesson}: `;
+            week.appendChild(title);
+            week.appendChild(a);
+            links.appendChild(week);
+            
     })
     })
 }
