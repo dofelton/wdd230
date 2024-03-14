@@ -4,7 +4,7 @@
             "name": "Chick-fil-a",
             "address": "2617 Lakeview Parkway",
             "phone": "(972)412-1804",
-            "url": "chick-fil-a.com",
+            "url": "https://chick-fil-a.com",
             "image": "chamber/images/chicfila.jpg",
             "membership": "Gold"
         },
