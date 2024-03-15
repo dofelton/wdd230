@@ -1,5 +1,4 @@
 const APIKey = '34fac9256086cfc3e37efb11d46b6199';
-// 0dc2835c1f834a1874a6f13e7e20ccc9
 // Coordinantes for Trier Germany 49.7496659116339, 6.636409678786817
 const lat = 49.7496659116339;
 const lon = 6.636409678786817;
@@ -22,16 +21,25 @@ async function apiFetch() {
     console.log(error);
 }
 }
+apiFetch();
 
 function displayResults(data) {
     currentTemp.innerHTML = `${Math.round(data.main.temp)}&deg;F`;
-    const inconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    // let desc = data.weather[0].icon
-    desc.textContent = `- ${(data.weather[0].description)}`;
-    weatherIcon.setAttribute('src', inconsrc);
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    console.log(iconsrc);
+    let desc = data.weather[0].description;
+    console.log(desc);
+    weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+    captionDecs.textContent = `${titleCase(desc)}`;
 }
 
-apiFetch();
+function titleCase(string) {
+    string = string.split(' ');
+    for (let i=0; i < string.length; i++) {
+        string[i] = string[i].charAt(0).toUpperCase() + string[i].slice(1);
+    }
+    return string.join(' ');
+}
 
 // https://codepen.io/Michael-Bourdet/pen/OJGRyWy
