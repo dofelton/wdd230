@@ -26,11 +26,10 @@ function displayResults(data) {
     let description = document.createElement('p');
     let icon = document.createElement('img');
     let fcTitle = document.createElement('h3');
-
+    
     temp.innerHTML = `${Math.round(data.main.temp)}&deg;F`;
     let desc = data.weather[0].description;
     description.textContent = `${titleCase(desc)}`;
-    // console.log(description);
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     icon.setAttribute('src', iconsrc);
     icon.setAttribute('alt', desc);
@@ -40,7 +39,6 @@ function displayResults(data) {
     weatherCard.appendChild(description);
     weatherCard.appendChild(icon);
     weatherCard.appendChild(fcTitle);
-
 }
 
 function titleCase(string) {

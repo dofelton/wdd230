@@ -41,11 +41,11 @@
         visibility: hidden;
     }
 
-    .herolabel:after {
+    /* .herolabel:after {
         visibility: visible;
         position: absolute;
         content: "Week 6 Large";
-    }
+    } */
 
     .joinForm {
         display: grid;
@@ -67,4 +67,5 @@
     #benefits {
      text-align: center;
     }
+    
 }

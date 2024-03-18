@@ -29,7 +29,7 @@
         visibility: hidden;
     }
 
-    .herolabel:after {
+    /* .herolabel:after {
         visibility: visible;
         position: absolute;
         top: 10px;
@@ -40,6 +40,6 @@
         opacity: 0.75;
         content: "Week 6 medium";
     }
-
+ */
 
 }
