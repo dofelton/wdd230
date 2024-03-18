@@ -1,5 +1,5 @@
 const weatherCard = document.querySelector('.weather');
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=32.9029&lon=-96.5639&appid=34fac9256086cfc3e37efb11d46b6199&units=imperial"
+const url = "https://api.openweathermap.org/data/2.5/forecast?lat=32.9029&lon=-96.5639&appid=34fac9256086cfc3e37efb11d46b6199&units=imperial"
 
 async function apiFetch() {
     try {
