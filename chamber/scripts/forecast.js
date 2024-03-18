@@ -18,8 +18,12 @@ async function apiFetch() {
 
 apiFetch();
 
-function displayResults(data) {
-    object[] forecast = new object[3];
+const forcast = jsObject.list.filter(data.dt_text.includes('15:00:00'));
+console.log(forecast);
 
+function displayResults(data) {
+    forecast.forEach(forecast => {
+        let d = new Date(forecast.dt_txt);
+    })
 
 }
