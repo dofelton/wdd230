@@ -29,7 +29,6 @@ function displayForecast(forecastdata) {
         
         if (forecast.dt_txt.includes('15:00:00') && occurance < 4 ) {
             occurance += 1;
-            console.log(occurance);
             let card = document.createElement('span');
             let temp = document.createElement('p');
             let description = document.createElement('p');

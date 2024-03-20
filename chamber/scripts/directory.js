@@ -1,4 +1,4 @@
-const url = 'https://dofelton.github.io/wdd230/chamber/data/members.json';
+const url = 'data/members.json';
 const cards = document.querySelector('#cards');
 
 const getMemberData = async () => {
@@ -25,6 +25,7 @@ const displayMembers = (members) => {
         phone.textContent = `${member.phone}`;
         picture.setAttribute('src', member.image);
         picture.setAttribute('alt', `Picture of ${member.name}`);
+        console.log(picture.src)
         picture.setAttribute('loading', 'lazy');
         picture.setAttribute('width', '340');
         picture.setAttribute('height', '440');

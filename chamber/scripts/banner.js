@@ -1,7 +1,6 @@
 const banner = document.querySelector('.banner');
 
 const displayBanner = () => {
-    console.log('this should print')
     let welcome = document.createElement('h3');
     let details = document.createElement('h2');
 
@@ -10,13 +9,10 @@ const displayBanner = () => {
 
     banner.appendChild(welcome);
     banner.append(details);
-    console.log(welcome);
-    console.log(details);
 }
 
 const d = new Date();
 let day = d.getDay();
-console.log(`today is ${day}`)
 if (day == 1 || day == 2 || day == 3)
 {
     displayBanner();
