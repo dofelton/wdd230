@@ -8,7 +8,6 @@ const getMemberData = async () => {
         console.log(data.members);
         displayMembers(data.members);
     }
-    
 }
 
 const displayMembers = (members) => {
@@ -25,7 +24,6 @@ const displayMembers = (members) => {
         phone.textContent = `${member.phone}`;
         picture.setAttribute('src', member.image);
         picture.setAttribute('alt', `Picture of ${member.name}`);
-        console.log(picture.src)
         picture.setAttribute('loading', 'lazy');
         picture.setAttribute('width', '340');
         picture.setAttribute('height', '440');
