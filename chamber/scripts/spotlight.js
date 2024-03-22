@@ -14,9 +14,11 @@ const getMemberData = async () => {
 }
 getMemberData();
 function displaySpotlight(members, card) {
+    randNum = random.next((data.members.size)-1);
+    console.log(randNum);
+
     members.forEach((member) => {
-        Random rnd = new Random();
-        rnd = rnd.next(data.members.size);
+        
         let name = document.createElement('h2');
         name.textContent = `${members.name}`;
         card.appendChild(name);
