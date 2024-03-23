@@ -239,8 +239,12 @@ div.forecast {
 .highlight1,
 .highlight2 {
     padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
 }
-
+.highlight1 image {
+    
+}
 
 @media (max-width: 600px) {
     .navigation {

@@ -13,7 +13,7 @@
             "address": "2201 Lakeview Parkway",
             "phone": "(982)463-7924",
             "url": "https://www.homedepot.com",
-            "image": "https://www.google.com/maps/place/The+Home+Depot/@32.9101816,-96.5824081,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPS45grIjgOcHZvr-jNQw_8hsVqOXpH-fABkLXg!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPS45grIjgOcHZvr-jNQw_8hsVqOXpH-fABkLXg%3Dw207-h86-k-no!7i704!8i292!4m7!3m6!1s0x864c1d54150b8ca1:0x959d5361c6d350bb!8m2!3d32.9101832!4d-96.5824217!10e5!16s%2Fg%2F1tg87182?entry=ttu#",
+            "image": "images/homedepot.webp",
             "membership": "Gold"
         },
         {
@@ -21,7 +21,7 @@
             "address": "3001 Lakeview Parkway",
             "phone": "(972)265-0386",
             "url": "https://www.sprouts.com",
-            "image": "https://www.google.com/maps/place/Sprouts+Farmers+Market/@32.908634,-96.573521,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPEEjdmPpyWC-czs5t9kwjUrYN1LO47wvgkQ_Vu!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPEEjdmPpyWC-czs5t9kwjUrYN1LO47wvgkQ_Vu%3Dw114-h86-k-no!7i4032!8i3024!4m7!3m6!1s0x864c02aa5d6a0f13:0x568c668345a203a0!8m2!3d32.9087286!4d-96.573521!10e5!16s%2Fg%2F11cjg9mbnl?entry=ttu#",
+            "image": "images/sprouts.webp",
             "membership": "Silver"
         },
         {
@@ -29,7 +29,7 @@
             "address": "3840 Main Street",
             "phone": "(214)440-2080",
             "url": "https://www.bankheadbrewing.com",
-            "image": "https://www.google.com/maps/place/Bankhead+Brewpub+-+Rowlett/@32.9029426,-96.5654128,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOZ5tgE-5RJZiX5KRkfx2L8CQotPrPWo0MVfAdE!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOZ5tgE-5RJZiX5KRkfx2L8CQotPrPWo0MVfAdE%3Dw114-h86-k-no!7i960!8i720!4m7!3m6!1s0x864ea81cf2f5b4bb:0xe968b22c0d9a1e2b!8m2!3d32.9026837!4d-96.5655333!10e5!16s%2Fg%2F11clyfk0v4?entry=ttu#",
+            "image": "images/bankhead.webp",
             "membership": "Gold"
         },
         {
@@ -53,7 +53,7 @@
             "address": "4720 Industrial Street",
             "phone": "(972)956-5500",
             "url": "https://www.gatsplat.com",
-            "image": "https://www.google.com/maps/place/GatSplat+Indoor+Paintball+and+Birthday+Parties,+Rowlett/@32.9065454,-96.5575524,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNGFmzjDQlf0zNcf9NPUX-4tsrRg3dGqqI7d09d!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNGFmzjDQlf0zNcf9NPUX-4tsrRg3dGqqI7d09d%3Dw203-h360-k-no!7i1242!8i2208!4m7!3m6!1s0x864ea81ff010db61:0x147c623438732198!8m2!3d32.9065454!4d-96.5575524!10e5!16s%2Fg%2F11cncd7fpj?entry=ttu#",
+            "image": "images/gatsplat.webp",
             "membership": "Bronze"
         }
     ]
