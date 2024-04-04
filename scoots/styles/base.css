@@ -1,0 +1,42 @@
+:root {
+    --div-back: rgba(245, 245, 77, 0.753);
+}
+
+* {
+    background: rgb(46, 236, 46);
+
+}
+main {
+    display: flex;
+    border: 1px solid black;
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+    /* background-image: url("images/beach.webp"); */
+    background-color: azure;
+
+}
+
+#action {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+.rentals {
+    border: 1px solid black;
+    background: var(--div-back);
+    padding: 2rem;
+}
+
+.rentals h2,
+.rentals h3 {
+    text-align: center;
+}
+
