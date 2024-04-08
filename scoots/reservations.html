@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservations</title>
+    <title>Scoot's Rental Page</title>
+    <meta name="description" content="Scoot's Rental Webpage Assignment for WDD230">
+    <meta name="author" content="Donald Felton">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <meta property="og:type" content="website">
+    <meta property="title" content="Scoot's Rental">
+    <meta property="url" content="https://dofelton.github.io/wdd230/scoots">
+    <meta property="image" content="">
+    <meta property="description" content="Scoot's Rental Webpage">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
+    <section class="banner">
+        <button id="menu"></button>
+    </section>
+    <header>
+        <img src="images/beach.webp" alt="beach scene" style="width: 100%;">
+        <h1>Scoot's Rental Service<br>Reservations</h1>
+    </header>
+
 <body>
-    <header>Reservations</header>
+    <main>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="rentals.html">Rentals</a>
+            <a href="#">Reservations</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <section class="reserv"> 
+            <section>
+                <form action="thank.html" method="get" class="form">
+                    <legend>Reservation Information</legend>
+                    <fieldset>
+                        <legend>Personal Contact</legend>
+                            <label>Name* <input type="text" id="name" required></label>
+                            <label>Phone Number* <input type="tel" id="phone" required></label>
+                            <label>Email* <input type="email" id="email" required
+                            ></label>
+                            <label>Country of Origin <input type="text" id="country"></label>
+                            <label>Cruiseline <input type="text" id="cruise"></label>
+                        <legend>Vehicle Information</legend>
+                        <input type="checkbox" id="vehicle1">
+                        <label for="vehicle1"> Honda Metro Scooter</label><br>
+                        <input type="checkbox" id="vehicle2">
+                        <label for="vehicle2"> Honda Dio Scooter</label><br>
+                        <input type="checkbox" id="vehicle3">
+                        <label for="vehicle3"> Honda PCX150</label><br>
+                        <input type="checkbox" id="vehicle4">
+                        <label for="vehicle4"> Honda Pioneer</label><br>
+                        <input type="checkbox" id="vehicle5">
+                        <label for="vehicle5"> Jeep Wrangler 2-door</label><br>
+                        <input type="checkbox" id="vehicle6">
+                        <label for="vehicle6"> Jeep Wrangler 4-door</label><br>
+                        <label>How Many?* <input type="number" id="quantity" required></label> 
+                        <label>How many days?* <input type="number" id="length" required></label>
+                        <label class="top">Additional Details: <textarea name="details" id="details" cols="20"></textarea></label>
+                        <input type="submit" value="Make Your Reservation Now" class="submit">
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <h2>Rental Terms</h2>
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at the time of rental.</li>
+                    <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge is not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is included.</li>
+                    <li>Damage insurance is available for purchase.</li>
+                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                    <li>Rentals may be returned to either physical location.</li>
+                </ul>
+            </section>
+        </section>
+    </main>    
+    <footer>
+        <div><p>Contact Us: Call: +52 555 555 5555 email: scootsrental@gmail.com
+         <a href="facebook.com">Scoot's Facebook</a></div>
+    </footer>
 </body>
 </html>
