@@ -17,16 +17,10 @@
     <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-    <div class="banner">
-        <button id="menu"></button>
-    </div>
     <header>
         <img src="images/beach.webp" alt="beach scene" style="width: 100%;">
-        <h1>Scoot's Rental Service</h1>
+        <h1>Scoot's Rental Service<br>Reservations</h1>
     </header>
-    <div class="action">
-        <a href="reservations.html" class="action">Make a Reservation Now!!</a>
-    </div>   
     <main>
         <nav class="navigation">
             <a href="index.html">Home</a>
@@ -35,37 +29,37 @@
             <a href="contact.html">Contact Us</a>
         </nav>
         <section class="reserv"> 
-            <section>
-                <form action="thank.html" method="get" class="form">
-                    <legend>Reservation Information</legend>
-                    <fieldset>
-                        <legend>Personal Contact</legend>
-                            <label>Name* <input type="text" id="name" required></label>
-                            <label>Phone Number* <input type="tel" id="phone" required></label>
-                            <label>Email* <input type="email" id="email" required
-                            ></label>
-                            <label>Country of Origin <input type="text" id="country"></label>
-                            <label>Cruiseline <input type="text" id="cruise"></label>
-                        <legend>Vehicle Information</legend>
-                        <input type="checkbox" id="vehicle1">
-                        <label for="vehicle1"> Honda Metro Scooter</label><br>
-                        <input type="checkbox" id="vehicle2">
-                        <label for="vehicle2"> Honda Dio Scooter</label><br>
-                        <input type="checkbox" id="vehicle3">
-                        <label for="vehicle3"> Honda PCX150</label><br>
-                        <input type="checkbox" id="vehicle4">
-                        <label for="vehicle4"> Honda Pioneer</label><br>
-                        <input type="checkbox" id="vehicle5">
-                        <label for="vehicle5"> Jeep Wrangler 2-door</label><br>
-                        <input type="checkbox" id="vehicle6">
-                        <label for="vehicle6"> Jeep Wrangler 4-door</label><br>
-                        <label>How Many?* <input type="number" id="quantity" required></label> 
-                        <label>How many days?* <input type="number" id="length" required></label>
-                        <label class="top">Additional Details: <textarea name="details" id="details" cols="20"></textarea></label>
-                        <input type="submit" value="Make Your Reservation Now" class="submit">
-                    </fieldset>
-                </form>
-            </section>
+            <form action="thank.html" method="get" class="form">
+                <h2>Reservation Information</h2>
+                <fieldset>
+                    <legend>Personal Contact</legend>
+                        <label>Name* <input type="text" id="name" required></label>
+                        <label>Phone Number* <input type="tel" id="phone" required></label>
+                        <label>Email* <input type="email" id="email" required
+                        ></label>
+                        <label>Country of Origin <input type="text" id="country"></label>
+                        <label>Cruiseline <input type="text" id="cruise"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Vehicle Information</legend>
+                    <input type="checkbox" id="vehicle1">
+                    <label for="vehicle1"> Honda Metro Scooter</label><br>
+                    <input type="checkbox" id="vehicle2">
+                    <label for="vehicle2"> Honda Dio Scooter</label><br>
+                    <input type="checkbox" id="vehicle3">
+                    <label for="vehicle3"> Honda PCX150</label><br>
+                    <input type="checkbox" id="vehicle4">
+                    <label for="vehicle4"> Honda Pioneer</label><br>
+                    <input type="checkbox" id="vehicle5">
+                    <label for="vehicle5"> Jeep Wrangler 2-door</label><br>
+                    <input type="checkbox" id="vehicle6">
+                    <label for="vehicle6"> Jeep Wrangler 4-door</label><br>
+                    <label>How Many?* <input type="number" id="quantity" required></label> 
+                    <label>How many days?* <input type="number" id="length" required></label>
+                    <label class="top">Additional Details: <textarea name="details" id="details" cols="20"></textarea></label>
+                    <input type="submit" value="Make Your Reservation Now" class="submit">
+                </fieldset>
+            </form>
             <section>
                 <h2>Rental Terms</h2>
                 <ul>
