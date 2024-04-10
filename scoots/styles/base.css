@@ -156,6 +156,15 @@ footer {
     flex-wrap: wrap;
 }
 
+.options section {
+    margin: 5px;
+}
+
+.options section img {
+    height: 200px;
+    width: auto;
+}
+
 #rentals {
     display: flex;
     flex-direction: row;
